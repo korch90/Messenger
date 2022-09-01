@@ -1,0 +1,50 @@
+.container_wrapper{
+    background-color: rgb(240, 234, 232);
+    grid-area: h;
+ padding: 115px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+.user_img_container{
+align-self: flex-start;
+position: relative;
+
+}
+.user_img_container:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/bird.png) ; 
+    position: absolute;
+ bottom: 4px;
+    left: 38px; 
+    background-size: cover;
+}
+.user_img{
+    width: 50px;
+}
+
+.input{
+    border-radius: 12px;
+   width: 100%;
+    padding: 5px 30px;
+    background-color:rgb(255, 255, 255)
+}
+.input_container{
+    display: flex;
+    width: 90%;
+    align-self: center;
+    position: relative;
+}
+.scope{
+    position: absolute;
+    width: 17px;
+    top: 5px;
+    right: 10px
+}
+.scope:hover{
+  cursor: pointer;
+}
